@@ -1,5 +1,9 @@
-main() {
-  List MyList = [2, 4, 2, 9];
+import 'dart:math';
 
-  print(MyList.toSet());
+void main() {
+  var num = {1: 'aqsa', 2: 'bano'};
+
+  num.putIfAbsent(3, () => 'khan');
+
+  print(num);
 }
