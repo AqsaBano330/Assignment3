@@ -13,7 +13,7 @@ main() {
     'mon': 3000.0,
     'tue': 3234.0,
   };
-  expenses['fri'] = 5000.0;
+  if (expenses.containsKey('fri')) {}
 
   print(expenses);
 }
